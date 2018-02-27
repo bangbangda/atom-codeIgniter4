@@ -1,0 +1,17 @@
+{
+  "name": "atom-codeigniter4",
+  "version": "0.0.1",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-codeigniter4:toggle"
+  },
+  "repository": "https://github.com/bangbangda/atom-codeIgniter4",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
