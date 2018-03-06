@@ -1,0 +1,31 @@
+'.php':
+  'Codeigniter4 Config':
+    'prefix':'ci4-conf'
+    'body': '''
+    <?php namespace App\\Config;
+
+    /**
+     * ${1:ConfigName}.
+     *
+     * @package App\\Config
+     * @author
+     * @since   Version
+     * @filesource
+     */
+    use CodeIgniter\\Config\\BaseConfig;
+
+    /**
+     *
+     */
+    class ${1:ConfigName} extends BaseConfig
+    {
+        // 注册器
+        protected $registrars = [
+
+        ];
+    }
+
+
+    /* End of file ${1:ConfigName}.php */
+    /* Location: ./application/Config/${1:ConfigName}.php */
+    '''

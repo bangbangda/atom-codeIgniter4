@@ -1,32 +1,37 @@
-'*':
-  'Codeigniter Controller':
-    'prefix':'ci4controller'
+'.php':
+  'Codeigniter4 Controller':
+    'prefix':'ci4-c'
     'body': '''
-              <?php namespace App\\Controllers;
+    <?php namespace App\\Controllers;
 
-                    use CodeIgniter\\Controller;
+    /**
+     * ${1:ControllerName}.
+     *
+     * @package App\\Controllers
+     * @author
+     * @since   Version
+     * @filesource
+     */
+    use CodeIgniter\\Controller;
 
-                    /**
-                     * NOTE: This is not a valid file for actual tests.
-                     * This file came about as a small testbed I was using that
-                     * accidentally got committed. It will be removed prior to release
-                     * If you commit any changes to this file, it should be accompanied
-                     * by actual tests also.
-                     *
-                     * @package App\\Controllers
-                     */
+    /**
+     *
+     */
+    class ${1:ControllerName} extends Controller
+    {
+        /**
+         *
+         */
+        public function index()
+        {
+            //
+        }
 
-                    class Home extends Controller
-                    {
-                    	public function index()
-                    	{
-                    		return view('welcome_message');
-                    	}
+        //--------------------------------------------------------------------
 
-                    	//--------------------------------------------------------------------
-                    }
+    }
 
 
-              /* End of file ${1:ControllerName}.php */
-              /* Location: ./application/controllers/${1:ControllerName}.php */
-            '''
+    /* End of file ${1:ControllerName}.php */
+    /* Location: ./application/Controllers/${1:ControllerName}.php */
+    '''
