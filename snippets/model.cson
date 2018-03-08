@@ -1,37 +1,4 @@
 '.php':
-  'Codeigniter4 Model':
+  'Codeigniter4 View':
     'prefix':'ci4-m'
-    'body': '''
-    <?php namespace App\\Models;
-
-    /**
-     * ${1:ModelName}.
-     *
-     * @package App\\Models
-     * @author
-     * @since   Version
-     * @filesource
-     */
-    use CodeIgniter\\Model;
-
-    /**
-     *
-     */
-    class ${1:ModelName} extends Model
-    {
-        /**
-         *
-         */
-        public function ${2:FuncName}()
-        {
-            //
-        }
-
-        //--------------------------------------------------------------------
-
-    }
-
-
-    /* End of file ${1:ModelName}.php */
-    /* Location: ./application/Models/${1:ModelName}.php */
-    '''
+    'body': 'view(\'${1:name}\', ${2:data});'

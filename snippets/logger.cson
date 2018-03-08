@@ -1,0 +1,36 @@
+'.php':
+  'Codeigniter4 Logger':
+    'prefix':'ci4-log'
+    'body': '\$this->logger->log(\'${1:level}\', \'${2:message}\', ${3:context});'
+
+  'Codeigniter4 Logger emergency':
+    'prefix':'ci4-emergency'
+    'body': '\$this->logger->emergency(\'${1:message}\', ${2:context});'
+
+  'Codeigniter4 Logger alert':
+    'prefix':'ci4-alert'
+    'body': '\$this->logger->alert(\'${1:message}\', ${2:context});'
+
+  'Codeigniter4 Logger critical':
+    'prefix':'ci4-critical'
+    'body': '\$this->logger->critical(\'${1:message}\', ${2:context});'
+
+  'Codeigniter4 Logger error':
+    'prefix':'ci4-error'
+    'body': '\$this->logger->error(\'${1:message}\', ${2:context});'
+
+  'Codeigniter4 Logger debug':
+    'prefix':'ci4-debug'
+    'body': '\$this->logger->debug(\'${1:message}\', ${2:context});'
+
+  'Codeigniter4 Logger warning':
+    'prefix':'ci4-warning'
+    'body': '\$this->logger->warning(\'${1:message}\', ${2:context});'
+
+  'Codeigniter4 Logger notice':
+    'prefix':'ci4-notice'
+    'body': '\$this->logger->notice(\'${1:message}\', ${2:context});'
+
+  'Codeigniter4 Logger info':
+    'prefix':'ci4-info'
+    'body': '\$this->logger->info(\'${1:message}\', ${2:context});'

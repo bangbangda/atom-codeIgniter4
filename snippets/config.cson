@@ -2,17 +2,17 @@
   'Codeigniter4 Config':
     'prefix':'ci4-conf'
     'body': '''
-    <?php namespace App\\Config;
+    <?php namespace App\\\\Config;
 
     /**
      * ${1:ConfigName}.
      *
-     * @package App\\Config
+     * @package App\\\\Config
      * @author
      * @since   Version
      * @filesource
      */
-    use CodeIgniter\\Config\\BaseConfig;
+    use CodeIgniter\\\\Config\\\\BaseConfig;
 
     /**
      *
