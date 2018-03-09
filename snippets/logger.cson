@@ -1,7 +1,7 @@
 '.php':
   'Codeigniter4 Logger':
     'prefix':'ci4-log'
-    'body': '\$this->logger->log(\'${1:level}\', \'${2:message}\', ${3:context});'
+    'body': 'log_message(\'${1:level}\', \'${2:message}\', ${3:context});'
 
   'Codeigniter4 Logger emergency':
     'prefix':'ci4-emergency'
