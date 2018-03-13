@@ -1,0 +1,12 @@
+'.php':
+  'Codeigniter4 View':
+    'prefix':'ci4-v'
+    'body': 'view(\'${1:name}\', ${2:data});'
+
+  'Codeigniter4 View Cell':
+    'prefix':'ci4-vc'
+    'body': 'view_cell(\'${1:library}\', ${2:params});'
+
+  'Codeigniter4 View Escape Data':
+    'prefix':'ci4-vesc'
+    'body': 'esc(${1:data}, \'${2:context}\');'

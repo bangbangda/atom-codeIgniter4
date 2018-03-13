@@ -2,17 +2,17 @@
   'Codeigniter4 Model':
     'prefix':'ci4-m'
     'body': '''
-    <?php namespace App\\Models;
+    <?php namespace App\\\\Models;
 
     /**
      * ${1:ModelName}.
      *
-     * @package App\\Models
+     * @package App\\\\Models
      * @author
      * @since   Version
      * @filesource
      */
-    use CodeIgniter\\Model;
+    use CodeIgniter\\\\Model;
 
     /**
      *

@@ -2,17 +2,17 @@
   'Codeigniter4 Controller':
     'prefix':'ci4-c'
     'body': '''
-    <?php namespace App\\Controllers;
+    <?php namespace App\\\\Controllers;
 
     /**
      * ${1:ControllerName}.
      *
-     * @package App\\Controllers
+     * @package App\\\\Controllers
      * @author
      * @since   Version
      * @filesource
      */
-    use CodeIgniter\\Controller;
+    use CodeIgniter\\\\Controller;
 
     /**
      *
@@ -22,7 +22,7 @@
         /**
          *
          */
-        public function index()
+        public function ${2:FuncName}()
         {
             //
         }
